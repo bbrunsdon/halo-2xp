@@ -1,0 +1,16 @@
+{
+    "name": "halo-infinite-double-xp-greaser",
+    "version": "0.9",
+    "description": "",
+    "main": "background.js",
+    "dependencies": {},
+    "devDependencies": {
+        "esbuild": "^0.14.47"
+    },
+    "scripts": {
+        "dev": "esbuild app.js --bundle --outfile=app.min.js --watch",
+        "build": "esbuild app.js --bundle --minify --outfile=app.min.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
